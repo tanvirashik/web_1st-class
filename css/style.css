@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*heder start*/
+header{
+	padding: 20px 0;
+	border-bottom: 2px solid #EEF0F3;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width: 10%;
+	float: left;
+}
+.logo a img{
+	width: 100%;
+}
+
+.menu {
+	width: 50%;
+	float: right;
+}
+.menu ul{
+	list-style-type: none;
+	float: right;
+}
+.menu ul li{
+	float: left;
+}
+.menu ul li a{
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 20px;
+	font-size: 18px;
+	color: #0F2656;
+	text-transform: capitaize;
+
+}
+.menu ul li a:hover{
+	color: #0086FF;
+}
+.menu ul li a:last-child{
+	margin-right: 0;
+}
+/*header end*/
+
+/*home work*/
+
+/*class header*/
+.header p:nth-child(2) {
+	background-color: red;
+}
+.header p:nth-child(even) {
+	background-color: lime;
+}
+.header p:nth-child(odd){
+	background-color: tomato;
+}
+/*class header end*/
+
+/*section start*/
+.section p:nth-child(3n-0){
+	background-color: blue;
+}
+/*section end*/
